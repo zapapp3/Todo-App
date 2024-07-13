@@ -27,7 +27,7 @@ const EditTodo = () => {
         if (submitted) {
             try {
                 localStorage.setItem('todo', JSON.stringify(data));
-                navigate('/todo-app');
+                navigate('/todo-app/');
                 setSubmitted(false);
             } catch (error) {
                 console.log(error);

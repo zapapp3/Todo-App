@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container flex items-center justify-between">
                 <h2 className="text-2xl font-bold title">Todo App</h2>
 
-                <Link to="/todo-app">
+                <Link to="/todo-app/">
                     <p className="opacity-90 hover:opacity-100 transition home-link">
                         Home
                     </p>

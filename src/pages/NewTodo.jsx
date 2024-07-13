@@ -49,7 +49,7 @@ const NewTodo = () => {
         if (submit) {
             try {
                 localStorage.setItem('todo', JSON.stringify(data));
-                navigate('/');
+                navigate('/todo-app/');
             } catch (error) {
                 console.log(error);
             }

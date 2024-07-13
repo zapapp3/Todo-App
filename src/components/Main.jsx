@@ -24,7 +24,7 @@ const Main = () => {
                 </div>
 
                 <div className="home-resize bg-red-300 fixed bottom-5">
-                    <Link to="/new-todo">
+                    <Link to="/todo-app/new-todo">
                         <button
                             className={
                                 data.length <= 0

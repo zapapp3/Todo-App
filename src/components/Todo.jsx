@@ -80,7 +80,7 @@ const Todo = ({ data }) => {
             )}
             <div className="edit-delete flex gap-3 justify-end items-center text-slate-700">
                 <Link
-                    to={`/edit-todo/${data.id}`}
+                    to={`/todo-app/edit-todo/${data.id}`}
                     className="flex justify-center items-center"
                 >
                     <i className="cursor-pointer edit fas fa-pen-to-square text-sm"></i>

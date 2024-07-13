@@ -14,7 +14,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<SharedHomeLayout />}>
+                <Route path="todo-app" element={<SharedHomeLayout />}>
                     <Route index element={<Home />} />
                     <Route path="new-todo" element={<NewTodo />} />
                     <Route path="edit-todo/:todoId" element={<EditTodo />} />
